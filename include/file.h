@@ -29,6 +29,7 @@
     char *load(char *file);
     void my_put_tab(char **tab);
     void my_put_tabw(char **tab);
+    void my_put_yams(char **tab);
     int get_y(char *buf);
     int line_size(char *line, int index);
     char **my_str_to_word_array(char *buff);

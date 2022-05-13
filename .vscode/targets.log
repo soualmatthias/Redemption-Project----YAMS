@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu May 12 18:59:47 2022
+# Make data base, printed on Fri May 13 11:35:38 2022
 
 # Variables
 
@@ -53,7 +53,7 @@ VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:63531
+JOURNAL_STREAM = 8:54157
 # makefile (from 'Makefile', line 13)
 CFLAGS = -I ./include -g3
 # environment
@@ -79,9 +79,9 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 1664
+MANAGERPID = 1714
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-71b78a62-8092-420b-bfda-0ac7dcff9b7c.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-fd405499-e5bd-4f5f-b11e-eca995364c95.sock
 # environment
 LC_NAME = fr_FR.UTF-8
 # environment
@@ -97,7 +97,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
-SESSION_MANAGER = local/matt-computer:@/tmp/.ICE-unix/1933,unix/matt-computer:/tmp/.ICE-unix/1933
+SESSION_MANAGER = local/matt-computer:@/tmp/.ICE-unix/1983,unix/matt-computer:/tmp/.ICE-unix/1983
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -115,7 +115,7 @@ DISABLE_WAYLAND = 1
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = f4ed85fb9e614a7d85e2a71985898ccb
+INVOCATION_ID = 5ddbf159a2da481b92778d5ff82ae153
 # environment
 GDK_PIXBUF_MODULEDIR = /snap/code/96/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
@@ -141,7 +141,7 @@ PWD = /home/soual/delivery/PERSO/Redemption-Project----YAMS
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1857
+SSH_AGENT_PID = 1907
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -215,7 +215,7 @@ LC_TELEPHONE = fr_FR.UTF-8
 # default
 MAKE_COMMAND := make
 # environment
-OLDPWD = /home/soual/delivery/PERSO
+OLDPWD = /home/soual
 # default
 .VARIABLES := 
 # automatic
@@ -235,8 +235,6 @@ GDK_BACKEND = x11
 # environment
 LC_PAPER = fr_FR.UTF-8
 # environment
-NO_AT_BRIDGE = 1
-# environment
 QT_ACCESSIBILITY = 1
 # default
 MAKEFILES := 
@@ -255,11 +253,11 @@ PAGER = less
 # environment
 LC_ALL = C
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/70696719_e682_4cd2_b6f7_ddbb7ab01073
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/a533c8d0_108b_494c_afed_c6d2bfd9e20b
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.129
+GNOME_TERMINAL_SERVICE = :1.115
 # default
 SUFFIXES := 
 # environment
@@ -277,14 +275,14 @@ LC_IDENTIFICATION = fr_FR.UTF-8
 # environment
 LC_ADDRESS = fr_FR.UTF-8
 # environment
- 
 LANG = C
+ 
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 4331
+VSCODE_PID = 4981
 # variable set hash-table stats:
-# Load=136/1024=13%, Rehash=0, Collisions=21/165=13%
+# Load=135/1024=13%, Rehash=0, Collisions=21/164=13%
 
 # Pattern-specific Variable Values
 
@@ -305,7 +303,7 @@ VSCODE_PID = 4331
 # Not a target:
 src/init_game.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-12 18:59:18.576343344
+#  Last modified 2022-05-13 11:32:30.08238314
 #  File has been updated.
 #  Successfully updated.
 
@@ -319,13 +317,13 @@ all: my_yams
 # Not a target:
 src/main.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-12 18:59:18.516343023
+#  Last modified 2022-05-13 11:32:30.030383142
 #  File has been updated.
 #  Successfully updated.
 
 my_yams: src/main.o src/init_game.o
 #  Implicit rule search has not been done.
-#  Last modified 2022-05-12 18:59:18.616343558
+#  Last modified 2022-05-13 11:32:30.126383139
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 20):
@@ -377,6 +375,6 @@ clean:
 # strcache performance: lookups = 35 / hit rate = 42%
 # hash-table stats:
 # Load=20/8192=0%, Rehash=0, Collisions=1/35=3%
-# Finished Make data base on Thu May 12 18:59:47 2022
+# Finished Make data base on Fri May 13 11:35:38 2022
 
  
