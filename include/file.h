@@ -15,9 +15,10 @@
     #include <ncurses.h>
     #include <fcntl.h>
     #include <string.h>
+    #include <time.h>
 
     typedef struct text_s {
-        char *YAMS;
+        char **YAMS;
         char **dices;
     } text_t;
 
@@ -35,6 +36,7 @@
     char **my_str_to_word_array(char *buff);
     char **load_dices(void);
     int my_strlen(char *str);
+    int get_random(int max);
 
 
 #endif
