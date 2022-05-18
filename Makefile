@@ -8,6 +8,7 @@
 SRC	=	src/main.c					\
 		src/init_game.c				\
 		src/get_random.c			\
+		src/game_loop.c 			\
 
 OBJ	=	$(SRC:.c=.o)
 
